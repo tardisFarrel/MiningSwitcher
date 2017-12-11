@@ -1,0 +1,119 @@
+---
+nr1050ti: 0
+nr1060: 1
+nr1070: 3
+nr1080: 0
+nr1080ti: 0
+config:
+        - coinName:  Monacoin
+          miner:  CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm:  lyra2v2
+          poolUrl: stratum+tcp://hub.miningpoolhub.com
+          poolPort: 20593
+          workerName: miningpoolstef.monacoin
+          workerPassword: x
+        - coinName:  Feathercoin
+          miner:  CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm:  neoscrypt
+          poolUrl: stratum+tcp://hub.miningpoolhub.com
+          poolPort: 20510
+          workerName: miningpoolstef.feathercoin
+          workerPassword: x
+        - coinName: Ethereum
+          miner: ETHMINER
+          executablePath: /home/stefan/ethminer/build/ethminer/ethminer
+          algorithm: ethash
+          poolUrl: eu1.ethermine.org
+          poolPort: 4444
+          workerName: 0x629c9d61cd41872c120a6da647dbbac581ec6d37.miner01
+          workerPassword: x
+        - coinName: Vertcoin
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: lyra2v2
+          poolUrl: stratum+tcp://hub.miningpoolhub.com
+          poolPort: 20507
+          workerName: miningpoolstef.vertcoin
+          workerPassword: x
+        - coinName: GroestlCoin
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: groestl
+          poolUrl: stratum+tcp://europe1.groestlcoin.miningpoolhub.com
+          poolPort: 20486
+          workerName: miningpoolstef.groestlcoin
+          workerPassword: x
+        - coinName: BitcoinGold
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: equihash
+          poolUrl: stratum+tcp://europe.equihash-hub.miningpoolhub.com
+          poolPort: 20595
+          workerName: miningpoolstef.bitcoingold
+          workerPassword: x
+        - coinName: Zencash
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: equihash
+          poolUrl: stratum+tcp://europe.equihash-hub.miningpoolhub.com
+          poolPort: 20594
+          workerName: miningpoolstef.zencash
+          workerPassword: x
+        - coinName: EthereumClassic
+          miner: ETHMINER
+          executablePath: /home/stefan/ethminer/build/ethminer/ethminer
+          algorithm: ethash
+          poolUrl: stratum+tcp://europe.ethash-hub.miningpoolhub.com
+          poolPort: 20555
+          workerName: miningpoolstef.ethereumclassic
+          workerPassword: x
+        - coinName: Musicoin
+          miner: ETHMINER
+          executablePath: /home/stefan/ethminer/build/ethminer/ethminer
+          algorithm: ethash
+          poolUrl: stratum+tcp://europe.ethash-hub.miningpoolhub.com
+          poolPort: 20585
+          workerName: miningpoolstef.musicoin
+          workerPassword: x
+        - coinName: Zcash
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: equihash
+          poolUrl: stratum+tcp://europe.equihash-hub.miningpoolhub.com
+          poolPort: 20570
+          workerName: miningpoolstef.zcash
+          workerPassword: x
+        - coinName: Zclassic
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: equihash
+          poolUrl: stratum+tcp://europe.equihash-hub.miningpoolhub.com
+          poolPort: 20575
+          workerName: miningpoolstef.zclassic
+          workerPassword: x
+        - coinName: Expanse
+          miner: ETHMINER
+          executablePath: /home/stefan/ethminer/build/ethminer/ethminer
+          algorithm: ethash
+          poolUrl: stratum+tcp://europe.ethash-hub.miningpoolhub.com
+          poolPort: 20565
+          workerName: miningpoolstef.expanse
+          workerPassword: x
+        - coinName: Monero
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: cryptonight
+          poolUrl: stratum+tcp://europe.cryptonight-hub.miningpoolhub.com
+          poolPort: 20580
+          workerName: miningpoolstef.monero
+          workerPassword: x
+        - coinName: Zcoin
+          miner: CCMINER
+          executablePath:  /home/stefan/ccminer/ccminer
+          algorithm: lyra2z
+          poolUrl: stratum+tcp://europe.lyra2z-hub.miningpoolhub.com
+          poolPort: 20581
+          workerName: miningpoolstef.zcoin
+          workerPassword: x
