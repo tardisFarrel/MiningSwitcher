@@ -44,3 +44,4 @@ Download/Clone the Repository
 ### Commandline arguments:
 * -c (--config=)     Specify the path to the configuration file
 * -d (--duration=)   Specify the duration between profitability checks in minutes
+* -s (--select=)    Specify a coin to mine directly
